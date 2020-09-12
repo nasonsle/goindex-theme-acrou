@@ -1,12 +1,12 @@
 // =======Options START=======
 var authConfig = {
-  siteName: "GoIndex-theme-acrou", // 网站名称
+  siteName: "Piney's Media Center", // 网站名称
   version: "1.1.2", // 程序版本
   theme: "acrou",
   // 强烈推荐使用自己的 client_id 和 client_secret
-  client_id: "202264815644.apps.googleusercontent.com",
-  client_secret: "X4Z3ca8xfWDb1Voo-F9a7ZxJ",
-  refresh_token: "", // 授权 token
+  client_id: "346989249798-2b37j163je18149m91pvmrbsj987fivn.apps.googleusercontent.com",
+  client_secret: "5Oiip-L_Se-OIsd0kGaYMwg2",
+  refresh_token: "1//0fsBTf1SFNXr_CgYIARAAGA8SNwF-L9Ir6F2lFxRPJspaxPVT2YHphLBTVha64-y11nrn0-sJrQ_vKIKNHN2Y_1zDHhS5OhiQe6o", // 授权 token
   /**
    * 设置要显示的多个云端硬盘；按格式添加多个
    * [id]: 可以是 团队盘id、子文件夹id、或者"root"（代表个人盘根目录）；
@@ -22,22 +22,43 @@ var authConfig = {
    */
   roots: [
     {
-      id: "",
-      name: "TeamDrive",
+      id: "0AHpN2rLxFXDkUk9PVA",
+      name: "indonicia",
       pass: "",
     },
     {
-      id: "root",
-      name: "PrivateDrive",
-      user: "",
-      pass: "",
-      protect_file_link: true,
+      id: "1SWf7bxUbZPlmLYjEEclJEm4_tE6QAtu2",
+      name: "个人空间",
+      user: "pineys",
+      pass: "33643221",
     },
     {
-      id: "",
-      name: "folder1",
+      id: "0APJTjQJIHTWXUk9PVA",
+      name: "BBC记录片",
       pass: "",
     },
+    {
+      id: "0AMjHU77nEoEnUk9PVA",
+      name: "影院电视剧",
+      pass: "",
+    },
+    {
+      id: "0AGRvDVk87iHsUk9PVA",
+      name: "Music Center",
+      pass: "",
+    },
+    {
+      id: "0ABXqpZSbFXHiUk9PVA",
+      name: "Ebooks",
+      pass: "",
+    },
+    {
+      id: "0AJfhQFps4pwrUk9PVA",
+      name: "精品软件",
+      user: "pineys",
+      pass: "33643221",
+    },   
+    
   ],
   default_gd: 0,
   /**
@@ -61,7 +82,7 @@ var authConfig = {
    * 如果在全局认证的基础上，仍需要给某些目录单独进行 .password 文件内的密码验证的话，将此选项设置为 true;
    * 【注意】如果开启了 .password 文件密码验证，每次列目录都会额外增加查询目录内 .password 文件是否存在的开销。
    */
-  enable_password_file_verify: false,
+  enable_password_file_verify: true,
 };
 
 var themeOptions = {
